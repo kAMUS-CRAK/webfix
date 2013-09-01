@@ -1,0 +1,41 @@
+.container
+{
+margin:0 auto;
+overflow:hidden; /* ESta propiedad oculta todo lo que este fuera del contenido */
+position:relative;
+widows:100%;
+}
+.left, .right
+{
+	position: absolute;
+	top:40%;
+	font-size: 3em;
+	padding-bottom:5px;
+	height:50px;
+	border:none;
+	text-decoration:none;
+}
+.left
+{
+left:0 px;
+
+}
+.right
+{
+right: 0px;
+}
+.container .sliderContainer
+{
+	white-space:nowrap; /* Esta propiedad coloca todos los sliede hacia la derecha de manera orizontal
+	es decir, que se pueden agregar mas slider sin definir la propiedad de ancho especifico
+	 */
+}
+.container .sliderContainer .slider
+{
+	display: inline-block;
+	margin-right:-4px;
+	background-size:100%;
+	background-repeat:no-repeat;
+	backbraund-position:20%;
+	vartical-algin:top;	
+}
